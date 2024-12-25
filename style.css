@@ -4,9 +4,13 @@
     box-sizing: border-box;
   }
   h1{
-    color: white;
+    color: greenyellow;
   }
-  
+  .hover-box:hover {
+    color: #444444; /* Change text color on hover */
+    background-color:greenyellow; /* Change background color on hover */
+    font: bold;
+}
   body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -18,6 +22,7 @@
   
   #game {
     text-align: center;
+    /* color: yellow; */
   }
   
   .game-board {
@@ -30,18 +35,18 @@
   .card {
     width: 100px;
     height: 100px;
-    background-color: #007bff;
+    background-color: #a9f1ba;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    color: white;
+    color: #3f3c3c;
     cursor: pointer;
   }
   
   .card.flipped {
-    background-color: #28a745;
+    background-color:greenyellow;
     cursor: default;
   }
   
@@ -50,5 +55,7 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+   
+    
   }
   
